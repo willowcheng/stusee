@@ -7,26 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
 
     <!-- Site Properities -->
-    <title>StuSee | 留学之旅</title>
+    <title>StuSee | 关于</title>
     <link rel="stylesheet" type="text/css" href="dist/semantic.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/about.css">
 
     <script src="assets/library/jquery.min.js"></script>
     <script src="dist/components/visibility.js"></script>
     <script src="dist/components/sidebar.js"></script>
     <script src="dist/components/transition.js"></script>
     <script src="dist/components/dropdown.js"></script>
-    <script src="js/index.js"></script>
+    <script src="js/about.js"></script>
 </head>
 <body>
 
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
     <div class="ui container">
-        <a class="active item" href="#">首页</a>
+        <a class="item" href="index.html">首页</a>
         <a class="item">如何使用</a>
         <a class="item">帮助</a>
-        <a class="item" href="about.html">关于</a>
+        <a class="active item" href="#">关于</a>
 
         <div class="right menu">
             <div class="item">
@@ -41,10 +41,10 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-    <a class="active item" href="#">首页</a>
+    <a class="item" href="index.html">首页</a>
     <a class="item">如何使用</a>
     <a class="item">帮助</a>
-    <a class="item" href="about.html">关于</a>
+    <a class="active item" href="index.html">关于</a>
     <a class="item">登陆</a>
     <a class="item">注册</a>
 </div>
@@ -53,25 +53,16 @@
 <!-- Page Contents -->
 <div class="pusher">
 
-    <div class="ui inverted vertical masthead center aligned segment"
-         style="padding-top: 0; background-color: transparent;">
-        <div id="video-container" style="z-index: -100;">
-            <video autoplay loop poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg"
-                   class="fillWidth">
-                <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
-                <source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
-            </video>
-        </div>
+    <div class="ui inverted vertical masthead center aligned segment fixed">
         <div class="ui container">
-            <div class="ui large secondary inverted pointing menu"
-                 style="border: 0px solid transparent; padding-top: 10px;">
+            <div class="ui large secondary inverted pointing menu">
                 <a class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
-                <a class="active item" href="#">首页</a>
+                <a class="item" href="index.html">首页</a>
                 <a class="item">如何使用</a>
                 <a class="item">帮助</a>
-                <a class="item" href="about.html">关于</a>
+                <a class="active item" href="#">关于</a>
 
                 <div class="right item">
                     <a class="ui inverted button">登陆</a>
@@ -80,28 +71,11 @@
             </div>
         </div>
 
-        <div class="ui text large container" style="z-index: 100;">
+        <div class="ui text large container">
 
             <h1 class="ui inverted header">
-                StuSee
+                团队背后的故事
             </h1>
-
-            <h2>下一次留学之旅，即刻出发</h2>
-
-            <div class="ui big search selection dropdown">
-                <input type="hidden" name="country">
-                <i class="dropdown icon"></i>
-
-                <div class="default text">选择国家</div>
-                <div class="menu">
-                    <div class="item" data-value="ca"><i class="ca flag"></i>加拿大</div>
-                    <div class="item" data-value="hk"><i class="hk flag"></i>香港</div>
-                    <div class="item" data-value="sg"><i class="sg flag"></i>新加坡</div>
-                    <div class="item" data-value="tw"><i class="tw flag"></i>台湾</div>
-                    <div class="item" data-value="us"><i class="us flag"></i>美国</div>
-                </div>
-            </div>
-            <div class="ui huge primary button">现在开始 <i class="right arrow icon"></i></div>
 
         </div>
 
