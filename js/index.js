@@ -27,7 +27,11 @@ $(document)
                 on: 'click'
             })
         ;
-
+        $('.login').click(function () {
+            $('.ui.modal')
+                .modal('show')
+            ;
+        });
 
     })
 ;
