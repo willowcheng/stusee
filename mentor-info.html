@@ -9,13 +9,14 @@
     <!-- Site Properities -->
     <title>StuSee | 留学之旅</title>
     <link rel="stylesheet" type="text/css" href="dist/semantic.css">
-    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <link rel="stylesheet" type="text/css" href="css/mentor-info.css">
 
     <script src="assets/library/jquery.min.js"></script>
     <script src="dist/components/visibility.js"></script>
     <script src="dist/components/sidebar.js"></script>
     <script src="dist/components/transition.js"></script>
     <script src="dist/components/dimmer.js"></script>
+    <script src="dist/components/button.css"></script>
     <script src="js/mentor-info.js"></script>
 </head>
 <body>
@@ -67,18 +68,10 @@
 <div class="pusher">
 
     <!-- Header -->
-    <div class="ui inverted vertical masthead center aligned segment"
-         style="padding-top: 0; background-color: transparent;">
-        <div id="video-container" style="z-index: -100;">
-            <video autoplay loop poster="https://s3-us-west-2.amazonaws.com/s.cdpn.io/4273/polina.jpg"
-                   class="fillWidth">
-                <source src="//demosthenes.info/assets/videos/polina.webm" type="video/webm">
-                <source src="//demosthenes.info/assets/videos/polina.mp4" type="video/mp4">
-            </video>
-        </div>
+    <div class="ui inverted vertical masthead center aligned segment" style="background-image: url(assets/images/mentor-feature-image.png)">
+
         <div class="ui container">
-            <div class="ui large secondary inverted pointing menu"
-                 style="border: 0px solid transparent; padding-top: 10px;">
+            <div class="ui large secondary inverted pointing menu">
                 <a class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
@@ -91,9 +84,9 @@
                         </div>
                     </div>
                 </div>
-                <a class="active item" href="#">首页</a>
+                <a class="item" href="index.html">首页</a>
                 <a class="item">如何使用</a>
-                <a class="item">帮助</a>
+                <a class="item" href="help.html">帮助</a>
                 <a class="item" href="about.html">关于</a>
 
                 <div class="right item">
@@ -104,55 +97,25 @@
             </div>
         </div>
 
-        <div class="ui huge breadcrumb">
-            <a class="section">首页</a>
-            <i class="right chevron icon divider"></i>
-            <a class="section">推荐导师</a>
-            <i class="right chevron icon divider"></i>
-
-            <div class="active section">个人信息</div>
-        </div>
-
-        <div class="ui text large container" style="z-index: 100;">
-
+        <div class="ui text container">
             <h1 class="ui inverted header">
-                StuSee
+                <img src="assets/images/avatar/avatar5.png" class="circular ui small bordered image"> 韦 季
+                <div class="item">
+                    <button class="circular ui icon button weibo orange">
+                        <i class="big weibo icon"></i>
+                    </button>
+                    <button class="circular ui icon button wechat green">
+                        <i class="big wechat icon"></i>
+                    </button>
+                    <button class="circular ui icon button qq blue">
+                        <i class="big qq icon"></i>
+                    </button>
+                </div>
             </h1>
 
-            <h2>下一次留学之旅，即刻出发</h2>
-
-            <div class="ui big search selection dropdown">
-                <input type="hidden" name="country">
-                <i class="dropdown icon"></i>
-
-                <div class="default text">选择国家</div>
-                <div class="menu">
-                    <div class="item" data-value="ca"><i class="ca flag"></i>加拿大</div>
-                    <div class="item" data-value="hk"><i class="hk flag"></i>香港</div>
-                    <div class="item" data-value="sg"><i class="sg flag"></i>新加坡</div>
-                    <div class="item" data-value="tw"><i class="tw flag"></i>台湾</div>
-                    <div class="item" data-value="us"><i class="us flag"></i>美国</div>
-                </div>
-            </div>
-            <div class="ui huge primary button">现在开始 <i class="right arrow icon"></i></div>
-
+            <h2>“我是个忠实的手工艺品爱好者，同时也擅长摄影和舞蹈。”</h2>
         </div>
 
-    </div>
-
-    <!-- Name Title -->
-    <div class="ui vertical stripe segment" style="background-color: #fff;">
-        <div class="ui middle left aligned stackable grid container">
-
-            <div class="row">
-                <div class="ui text large container" style="z-index: 100;">
-
-                    <h1 class="ui header">
-                        韦季明
-                    </h1>
-                </div>
-            </div>
-        </div>
     </div>
 
     <!-- Content Blocks -->
@@ -231,14 +194,33 @@
             <div class="ui inverted section divider"></div>
             <img src="assets/images/logo.png" class="ui centered mini image">
 
-            <div class="ui horizontal inverted small divided link list">
-                <a class="item" href="#">站点地图</a>
-                <a class="item" href="#">联系我们</a>
-                <a class="item" href="#">术语与使用</a>
-                <a class="item" href="#">隐私政策</a>
+            <h3>加入我们</h3>
+
+            <div class="ui very relaxed horizontal list">
+                <div class="item">
+                    <button class="circular ui icon button">
+                        <i class="big youtube icon"></i>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="circular ui icon button">
+                        <i class="big renren icon"></i>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="circular ui icon button">
+                        <i class="big facebook icon"></i>
+                    </button>
+                </div>
+                <div class="item">
+                    <button class="circular ui icon button">
+                        <i class="big instagram icon"></i>
+                    </button>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 
 </body>
