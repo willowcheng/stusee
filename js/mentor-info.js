@@ -22,11 +22,8 @@ $(document)
         $('.ui.sidebar')
             .sidebar('attach events', '.toc.item')
         ;
-        $('.ui.dropdown')
-            .dropdown({
-                on: 'click'
-            })
-        ;
+
+        // create dimmer effect for display sections
         $('.blurring').dimmer('show');
 
 

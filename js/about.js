@@ -22,12 +22,6 @@ $(document)
         $('.ui.sidebar')
             .sidebar('attach events', '.toc.item')
         ;
-        $('.ui.dropdown')
-            .dropdown({
-                on: 'click'
-            })
-        ;
-
 
     })
 ;

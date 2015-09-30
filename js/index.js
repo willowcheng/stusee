@@ -22,11 +22,15 @@ $(document)
         $('.ui.sidebar')
             .sidebar('attach events', '.toc.item')
         ;
+
+        // create dropdown for country selection
         $('.ui.dropdown')
             .dropdown({
                 on: 'click'
             })
         ;
+        
+        // create login modal
         $('.login').click(function () {
             $('.ui.modal')
                 .modal('show')

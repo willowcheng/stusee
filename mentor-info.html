@@ -15,7 +15,6 @@
     <script src="dist/components/visibility.js"></script>
     <script src="dist/components/sidebar.js"></script>
     <script src="dist/components/transition.js"></script>
-    <script src="dist/components/dropdown.js"></script>
     <script src="dist/components/dimmer.js"></script>
     <script src="js/mentor-info.js"></script>
 </head>
@@ -24,12 +23,15 @@
 <!-- Following Menu -->
 <div class="ui large top fixed hidden menu">
     <div class="ui container">
-        <a class="active item" href="#">首页</a>
+        <a class="active item" href="index.html">首页</a>
         <a class="item">如何使用</a>
-        <a class="item">帮助</a>
+        <a class="item" href="help.html">帮助</a>
         <a class="item" href="about.html">关于</a>
 
         <div class="right menu">
+            <div class="item">
+                <a class="ui primary button">成为留学生导师</a>
+            </div>
             <div class="item">
                 <a class="ui button">登陆</a>
             </div>
@@ -42,10 +44,11 @@
 
 <!-- Sidebar Menu -->
 <div class="ui vertical inverted sidebar menu">
-    <a class="active item" href="#">首页</a>
+    <a class="active item" href="index.html">首页</a>
     <a class="item">如何使用</a>
-    <a class="item">帮助</a>
+    <a class="item" href="help.html">帮助</a>
     <a class="item" href="about.html">关于</a>
+    <a class="item">成为留学生导师</a>
     <a class="item">登陆</a>
     <a class="item">注册</a>
 </div>
@@ -54,6 +57,7 @@
 <!-- Page Contents -->
 <div class="pusher">
 
+    <!-- Header -->
     <div class="ui inverted vertical masthead center aligned segment"
          style="padding-top: 0; background-color: transparent;">
         <div id="video-container" style="z-index: -100;">
@@ -75,6 +79,7 @@
                 <a class="item" href="about.html">关于</a>
 
                 <div class="right item">
+                    <a class="ui primary button">成为留学生导师</a>
                     <a class="ui inverted button">登陆</a>
                     <a class="ui inverted button">注册</a>
                 </div>
@@ -117,6 +122,7 @@
 
     </div>
 
+    <!-- Name Title -->
     <div class="ui vertical stripe segment" style="background-color: #fff;">
         <div class="ui middle left aligned stackable grid container">
 
@@ -131,6 +137,7 @@
         </div>
     </div>
 
+    <!-- Content Blocks -->
     <div class="ui vertical blurring stripe segment" style="background-color: #fff;">
         <div class="ui middle center aligned stackable grid container">
             <div class="row">
@@ -174,6 +181,7 @@
         </div>
     </div>
 
+    <!-- Footer -->
     <div class="ui inverted vertical footer segment">
         <div class="ui center aligned container">
             <div class="ui stackable inverted divided equal height stackable grid">

@@ -22,14 +22,20 @@ $(document)
         $('.ui.sidebar')
             .sidebar('attach events', '.toc.item')
         ;
+
+        // create dropdown for some labels
         $('.ui.dropdown')
             .dropdown({
                 on: 'click'
             })
         ;
+
+        // create radio checkbox feature
         $('.ui.radio.checkbox')
             .checkbox()
         ;
+
+        // create dimmer effect when hovering on the card
         $('.special.cards .image').dimmer({
             on: 'hover'
         });
