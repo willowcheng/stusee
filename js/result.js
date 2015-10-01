@@ -40,6 +40,5 @@ $(document)
             on: 'hover'
         });
 
-
     })
 ;
