@@ -9,74 +9,14 @@
     <!-- Site Properities -->
     <title>Stusee | 成为留学生导师</title>
     <link rel="stylesheet" type="text/css" href="dist/semantic.css">
+    <link rel="stylesheet" type="text/css" href="css/mentor-signup.css">
 
     <script src="assets/library/jquery.min.js"></script>
     <script src="dist/components/form.js"></script>
     <script src="dist/components/transition.js"></script>
     <script src="dist/components/dropdown.js"></script>
 
-    <style type="text/css">
-        body {
-            background-image: url(assets/images/signup-background.png);
-        }
-
-        body > .grid {
-            height: 100%;
-        }
-
-        .image {
-            margin-top: -100px;
-        }
-
-        .column {
-            max-width: 450px;
-        }
-    </style>
-    <script>
-        $(document)
-                .ready(function () {
-                    $('.ui.form')
-                            .form({
-                                fields: {
-                                    email: {
-                                        identifier: 'email',
-                                        rules: [
-                                            {
-                                                type: 'empty',
-                                                prompt: 'Please enter your e-mail'
-                                            },
-                                            {
-                                                type: 'email',
-                                                prompt: 'Please enter a valid e-mail'
-                                            }
-                                        ]
-                                    },
-                                    password: {
-                                        identifier: 'password',
-                                        rules: [
-                                            {
-                                                type: 'empty',
-                                                prompt: 'Please enter your password'
-                                            },
-                                            {
-                                                type: 'length[6]',
-                                                prompt: 'Your password must be at least 6 characters'
-                                            }
-                                        ]
-                                    }
-                                }
-                            })
-                    ;
-
-                    // create dropdown for some labels
-                    $('.ui.dropdown')
-                            .dropdown({
-                                on: 'click'
-                            })
-                    ;
-                })
-        ;
-    </script>
+    <script src="js/mentor-signup.js"></script>
 </head>
 <body>
 
