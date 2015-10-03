@@ -25,6 +25,9 @@ $(document)
 
         // create dimmer effect for display sections
         $('.blurring').dimmer('show');
+        $('.hide').click(function () {
+            $('.blurring').dimmer('hide');
+        });
 
 
     })
