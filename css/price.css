@@ -99,4 +99,8 @@
     }
 }
 
-/* Add Styles ------------------/
+/* Add Styles ------------------*/
+
+.margin-around {
+    padding: 24px;
+}
