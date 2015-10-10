@@ -16,6 +16,7 @@
     <script src="dist/components/sidebar.js"></script>
     <script src="dist/components/transition.js"></script>
     <script src="dist/components/embed.js"></script>
+    <script src="dist/components/dimmer.js"></script>
     <script src="js/about.js"></script>
 </head>
 <body>
@@ -69,11 +70,13 @@
                 <a class="toc item">
                     <i class="sidebar icon"></i>
                 </a>
+
                 <div class="item">
                     <div class="ui logo shape">
                         <div class="sides">
                             <div class="active ui side">
-                                <h2><a class="item" style="padding-bottom: 0; padding-right: 8px;" href="index.html">Stusee</a></h2>
+                                <h2><a class="item" style="padding-bottom: 0; padding-right: 8px;" href="index.html">Stusee</a>
+                                </h2>
                             </div>
                         </div>
                     </div>
@@ -154,10 +157,15 @@
                         <a class="header"><h3>Stusee 的创立宗旨</h3></a>
 
                         <div class="description" style="margin-top: 30px;">
-                            <p>Stusee 是一个专业留学生经验分享以及为新留学生提供服务的一个功能性网站，在这个网站里，Stusee 可以为即将准备出国留学的的留学生提供国外在读留学生留学经验，包括雅思、托福、GRE 等考试分享经验，学习专业经验，留学生活经验等等，在这里，国外留学生也可以给即将出国的留学生提供各项服务，包括申请留学，买机票，接机，找 homestay ，找住宿，办卡，等服务。
+                            <p>Stusee 是一个专业留学生经验分享以及为新留学生提供服务的一个功能性网站，在这个网站里，Stusee
+                                可以为即将准备出国留学的的留学生提供国外在读留学生留学经验，包括雅思、托福、GRE
+                                等考试分享经验，学习专业经验，留学生活经验等等，在这里，国外留学生也可以给即将出国的留学生提供各项服务，包括申请留学，买机票，接机，找 homestay
+                                ，找住宿，办卡，等服务。
                             </p>
                             <br/>
-                            <p>新留学生在国外心学习遇到困难，可以上 stusee 去找本专业在读留学生分享的学习经验，上课笔记以及一些考试要点。 而在国外在读的留学生可以通过分享自己的留学经验来赚钱，也可以通过新生接机找住宿来进行有偿服务。</p>
+
+                            <p>新留学生在国外心学习遇到困难，可以上 stusee 去找本专业在读留学生分享的学习经验，上课笔记以及一些考试要点。
+                                而在国外在读的留学生可以通过分享自己的留学经验来赚钱，也可以通过新生接机找住宿来进行有偿服务。</p>
                         </div>
                     </div>
                 </div>
@@ -170,7 +178,8 @@
         <div class="ui equal width stackable internally celled grid">
             <div class="center aligned row">
                 <div class="column">
-                    <div class="ui embed" data-source="vimeo" data-id="125292332" data-placeholder="assets/images/video-placeholder.jpeg">
+                    <div class="ui embed" data-source="vimeo" data-id="125292332"
+                         data-placeholder="assets/images/video-placeholder.jpeg">
                     </div>
                     <h3>“起初我也想做留学中介，但是鲜有人注意到留学生真正的需要，而后有了这个网站”</h3>
 
@@ -180,13 +189,73 @@
                 </div>
 
                 <div class="column">
-                    <div class="ui embed" data-source="youtube" data-id="JozAmXo2bDE" data-placeholder="assets/images/video-placeholder2.jpg">
+                    <div class="ui embed" data-source="youtube" data-id="JozAmXo2bDE"
+                         data-placeholder="assets/images/video-placeholder2.jpg">
                     </div>
                     <h3>“人生的步伐不会总是在同一处停留，我想试试挑战自己”</h3>
 
                     <p>
                         <img src="assets/images/avatar/tom.jpg" class="ui avatar image"> <b>集平，</b> Co-Founder
                     </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Team Member Card Block -->
+    <div class="ui vertical stripe segment">
+        <div class="ui large center aligned container">
+            <div class="ui three column grid">
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>银比武</h3>
+
+                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed sapien
+                                            quam. Sed dapibus est id enim facilisis, at posuere turpis adipiscing.
+                                            Quisque sit amet dui dui.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/avatar/avatar1.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>尹青</h3>
+
+                                        <p>Nunc sapien nulla, volutpat at accumsan non, aliquam nec diam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/avatar/avatar2.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="ui fluid card">
+                        <div class="blurring dimmable image">
+                            <div class="ui dimmer">
+                                <div class="content">
+                                    <div class="center">
+                                        <h3>魏高</h3>
+
+                                        <p>Proin et accumsan felis, scelerisque molestie sapien. In vestibulum sapien
+                                            sed eros cursus lacinia.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <img src="./assets/images/avatar/avatar3.png">
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
