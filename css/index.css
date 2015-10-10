@@ -121,3 +121,7 @@ video {
 video.fillWidth {
     width: 100%;
 }
+
+.select-box {
+    margin-top: 144px;
+}
