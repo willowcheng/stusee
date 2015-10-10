@@ -39,5 +39,9 @@ $(document)
 
         $('.ui.embed').embed();
 
+        $('.ui.fluid.card .image').dimmer({
+            on: 'hover'
+        });
+
     })
 ;
