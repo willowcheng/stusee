@@ -23,5 +23,7 @@ $(document)
             .sidebar('attach events', '.toc.item')
         ;
 
+        $('.ui.embed').embed();
+
     })
 ;
